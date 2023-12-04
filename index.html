@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Candy Counter</title>
+  </head>
+  <body>
+    <section class="container" id="container">
+      <h1>Candy Counter</h1>
+      <div class="user-input-container">
+        <div class="input-group">
+          <p>Number of children:</p>
+          <input
+            id="children-input"
+            type="number"
+            aria-label="Number of children"
+          />
+        </div>
+        <div class="input-group">
+          <p>Number of candies:</p>
+          <input
+            id="candy-input"
+            type="number"
+            aria-label="Number of candies"
+          />
+        </div>
+      </div>
+      <button class="calculate" id="calculate">Calculate</button>
+      <p class="result" id="result"></p>
+      <button class="reset" id="reset" hidden>Reset</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

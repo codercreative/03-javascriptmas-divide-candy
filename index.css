@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Mountains of Christmas", serif;
+}
+
+body {
+  background-image: url("/wallpaper.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5em auto;
+  max-width: 500px;
+  background-color: white;
+  padding: 5em;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-bottom: 1.8em;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.user-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 0.5em 0 2.5em 0;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 4em;
+  text-align: center;
+  background-color: pink;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Optional: You can also add any margin or padding adjustments here */
+}
+
+.calculate,
+.reset {
+  background-color: pink;
+  color: black;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 2em;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.calculate:hover,
+.reset:hover {
+  background-color: #ff355e;
+  color: white;
+}
+
+.result {
+  text-align: center;
+  margin-bottom: 2em;
+  line-height: 1.4;
+}
